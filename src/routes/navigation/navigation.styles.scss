@@ -7,7 +7,11 @@
 
   .logo-container {
     height: 100%;
-    width: 70px;
+    display: flex;
+
+    .logo{
+      max-width: 70px;
+    }
   }
 
   .nav-links-container {

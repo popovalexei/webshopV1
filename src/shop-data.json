@@ -1,62 +1,55 @@
 [
   {
-    "id": 1,
+    "id": "price_1O00uGLSmEZIEJAoSXiPIULb",
     "name": "T-shirt Blue",
     "imageUrl": "https://www.robeysportswear.com/dw/image/v2/BCXN_PRD/on/demandware.static/-/Sites-robey-master-catalog/default/dwf58472af/images/hi-res/RS1021_313_1.jpg?sw=880",
     "price": 25,
     "category": "T-Shirts"
   },
   {
-    "id": 2,
+    "id": "price_1O00tJLSmEZIEJAo1v99Odup",
     "name": "T-shirt Black",
     "imageUrl": "https://www.robeysportswear.com/dw/image/v2/BCXN_PRD/on/demandware.static/-/Sites-robey-master-catalog/default/dwadea8f4f/images/hi-res/RS1023_900_1.jpg?sw=880",
     "price": 18,
     "category": "T-Shirts"
   },
   {
-    "id": 3,
+    "id": "price_1O00vJLSmEZIEJAo7lSu0amH",
     "name": "T-shirt White",
     "imageUrl": "https://www.robeysportswear.com/dw/image/v2/BCXN_PRD/on/demandware.static/-/Sites-robey-master-catalog/default/dwb2b8a589/images/hi-res/RS7011_100_1.jpg?sw=880",
     "price": 35,
     "category": "T-Shirts"
   },
   {
-    "id": 4,
+    "id": "price_1O00wMLSmEZIEJAoSgsKwZzi",
     "name": "Tracksuit Blue",
     "imageUrl": "https://www.robeysportswear.com/dw/image/v2/BCXN_PRD/on/demandware.static/-/Sites-robey-master-catalog/default/dw92e93b3f/images/hi-res/RS3004_309_1.jpg?sw=880",
     "price": 25,
     "category": "tracksuits"
   },
   {
-    "id": 5,
+    "id": "price_1O00xaLSmEZIEJAoIhy1I1X3",
     "name": "Tracksuit Black",
     "imageUrl": "https://www.robeysportswear.com/dw/image/v2/BCXN_PRD/on/demandware.static/-/Sites-robey-master-catalog/default/dwaeca05c8/images/hi-res/RS3004_900_1.jpg?sw=880",
     "price": 18,
     "category": "tracksuits"
   },
   {
-    "id": 6,
-    "name": "Tracksuit Grey",
-    "imageUrl": "https://www.robeysportswear.com/dw/image/v2/BCXN_PRD/on/demandware.static/-/Sites-robey-master-catalog/default/dw3dbdbea5/images/hi-res/RS7704_810_1.jpg?sw=880",
-    "price": 14,
-    "category": "tracksuits"
-  },
-  {
-    "id": 7,
+    "id": "price_1O00rwLSmEZIEJAoQGEA5zpn",
     "name": "Adrien Shoes White",
     "imageUrl": "https://www.robeysportswear.com/dw/image/v2/BCXN_PRD/on/demandware.static/-/Sites-robey-master-catalog/default/dw7f15d7cd/images/hi-res/RO6044191510_1.jpg?sw=880",
     "price": 14,
     "category": "sneakers"
   },
   {
-    "id": 8,
+    "id": "price_1O00pzLSmEZIEJAoB9BBJMoN",
     "name": "Adrien Shoes Black",
     "imageUrl": "https://www.robeysportswear.com/dw/image/v2/BCXN_PRD/on/demandware.static/-/Sites-robey-master-catalog/default/dwc34c1521/images/hi-res/RO6040201591_1.jpg?sw=880",
     "price": 14,
     "category": "sneakers"
   },
   {
-    "id": 9,
+    "id": "price_1O00qxLSmEZIEJAoTlGPriLg",
     "name": "Adrien Shoes White Clean",
     "imageUrl": "https://www.robeysportswear.com/dw/image/v2/BCXN_PRD/on/demandware.static/-/Sites-robey-master-catalog/default/dwc34c1521/images/hi-res/RO6040201591_1.jpg?sw=880",
     "price": 14,

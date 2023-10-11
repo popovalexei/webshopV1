@@ -7,11 +7,9 @@ import Button from '../../components/button/button.component.jsx';
 import './checkout.styles.scss';
 
 const Checkout = () => {
-
   const { cartItems, cartTotal } = useContext(CartContext);
 
-  const checkoutFunction = async() => {
-
+  const checkoutFunction = async () => {
     console.log(cartItems);
 
     //TODO
@@ -21,15 +19,17 @@ const Checkout = () => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({items: cartItems})
-    }).then((response) => {
-      return response.json()
-    }).then((response) =>{
-      if (response.url) {
-        window.location.assign(response.url)
-      }
+      body: JSON.stringify({ items: cartItems }),
     })
-  }
+      .then((response) => {
+        return response.json();
+      })
+      .then((response) => {
+        if (response.url) {
+          window.location.assign(response.url);
+        }
+      });
+  };
 
   return (
     <div className="checkout-container">
@@ -53,7 +53,7 @@ const Checkout = () => {
       {cartItems.map((cartItem) => {
         return <CheckoutItem key={cartItem.id} cartItem={cartItem} />;
       })}
-      <span className="total">TOTAL: ${cartTotal}</span>
+      <span className="total">TOTAL: ${cartTotal.toFixed(2)}</span>
       <Button onClick={checkoutFunction}>CHECKOUT</Button>
     </div>
   );

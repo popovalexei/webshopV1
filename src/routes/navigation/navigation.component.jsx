@@ -16,11 +16,9 @@ const Navigation = () => {
       <div className="navigation">
         <Link className="logo-container" to="/">
           <img className="logo" src={logo} alt="Logo" />
+          <h1>KFC Paal-Tervant</h1>
         </Link>
         <div className="nav-links-container">
-          <Link className="nav-link" to="/shop">
-            SHOP
-          </Link>
           <Link className="nav-link" to="/about">
             ABOUT OUR CLUB
           </Link>

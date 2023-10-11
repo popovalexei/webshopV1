@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
   margin: 0;
   padding: 20px 40px;
   font-family: 'Open Sans' sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  *{
+    font-family: 'Montserrat', sans-serif;
+  }
 }
 
 code {
@@ -19,3 +25,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+// Responsiveness
+

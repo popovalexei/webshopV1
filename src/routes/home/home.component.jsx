@@ -8,24 +8,20 @@ const Home = () => {
   const categories = [
     {
       id: 1,
-      title: 'kits'
+      title: 'All Items'
     },
     {
       id: 2,
-      title: 'jackets'
+      title: 'T-Shirts'
     },
     {
       id: 3,
-      title: 'T-shirts'
+      title: 'Tracksuits'
     },
     {
       id: 4,
-      title: 'caps'
-    },
-    {
-      id: 5,
-      title: 'tracksuits'
-    },
+      title: 'Sneakers'
+    }
   ];
   return (
     <div>

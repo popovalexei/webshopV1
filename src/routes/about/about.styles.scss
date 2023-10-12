@@ -1,0 +1,34 @@
+.about-container{
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        text-align: center;
+    }
+
+    .team-image{
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .team-logo{
+        margin: 40px 0 20px;
+        max-width: 100%;
+        height: auto;
+        width: 120px;
+    }
+
+    .about-text{
+        line-height: 26px;
+        font-size: 18px;
+
+        p{
+            text-align: justify;
+            margin-bottom: 30px;
+        }
+    }
+}

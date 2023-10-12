@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { CartContext } from '../../contexts/cart.context.jsx';
+import { useNavigate } from 'react-router-dom';
 
 import Button from '../button/button.component.jsx';
 import './product-card.styles.scss';
@@ -10,9 +11,21 @@ const ProductCard = ({ product }) => {
 
   const addProductToCart = () => addItemToCart(product);
 
+  const navigate = useNavigate();
+
+  const goToProductDetails = () => {
+    navigate('productDetails', { state: { product } });
+  };
+
   return (
     <div className="product-card-container">
-      <img src={imageUrl} alt={`${name}`} />
+      <div
+        onClick={() => {
+          goToProductDetails();
+        }}
+      >
+        <img src={imageUrl} alt={`${name}`} />
+      </div>
       <div className="footer">
         <span className="name">{name}</span>
         <span className="price">${price}</span>

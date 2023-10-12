@@ -5,16 +5,27 @@ const addCartItem = (cartItems, productToAdd) => {
   const existingCartItem = cartItems.find(
     (cartItem) => cartItem.id === productToAdd.id
   );
-  // if found, return a new cartItem object and increment quantity
+
+  // If found, return a new cartItem object and increment quantity
   if (existingCartItem) {
     return cartItems.map((cartItem) =>
       cartItem.id === productToAdd.id
-        ? { ...cartItem, quantity: cartItem.quantity + 1 }
+        ? {
+            ...cartItem,
+            quantity: cartItem.quantity + 1,
+          }
         : cartItem
     );
   }
-  // return new array with modified cartItems / new cart item
-  return [...cartItems, { ...productToAdd, quantity: 1 }];
+
+  // Return a new array with modified cartItems / new cart item
+  return [
+    ...cartItems,
+    {
+      ...productToAdd,
+      quantity: 1,
+    },
+  ];
 };
 
 const removeCartItem = (cartItems, cartItemToRemove) => {

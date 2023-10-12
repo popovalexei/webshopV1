@@ -6,6 +6,7 @@ import { useContext, useEffect, useState } from 'react';
 import Home from './routes/home/home.component.jsx';
 import Navigation from './routes/navigation/navigation.component.jsx';
 import Checkout from './routes/checkout/checkout.component.jsx';
+import ProductDetails from './routes/productDetails/productDetails.component.jsx';
 import About from './routes/about/about.component.jsx';
 import Contact from './routes/contact/contact.component.jsx';
 import AddressForm from './views/addressView/AddressForm.jsx';
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="addressForm" element={<AddressForm />} />
         <Route path="success" element={<Success />} />
         <Route path="cancel" element={<Cancel/>} />
+        <Route path="productDetails" element={<ProductDetails/>} />       
       </Route>
     </Routes>
     </div>
